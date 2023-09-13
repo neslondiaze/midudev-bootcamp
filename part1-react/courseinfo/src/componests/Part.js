@@ -1,3 +1,4 @@
+import React, {Fragment} from "react"
 const Part = () =>{
 
     let list = [
@@ -7,7 +8,7 @@ const Part = () =>{
     ]
 
     return(
-        <div>
+        <Fragment>
             {
                 list.map(el =>(
                     <p>
@@ -15,7 +16,7 @@ const Part = () =>{
                     </p>
                 ))
             }
-        </div>
+        </Fragment>
     )
 }
 

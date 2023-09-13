@@ -1,10 +1,12 @@
+import { Fragment } from "react"
+
 const Total = (props) =>{
     return (
-        <div>
+        <Fragment>
             <p>
             {props.msg}: <strong>{props.total}</strong>
             </p>
-        </div>
+        </Fragment>
     )
 }
 
