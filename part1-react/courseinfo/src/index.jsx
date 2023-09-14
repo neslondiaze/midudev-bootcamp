@@ -27,7 +27,7 @@ const App = () => {
     mensaje: 'Mensaje en el estado'
   })
 
-  const [clicks, setClicks] = useState([]);
+  const [clicks, setClicks] = useState(0);
 
   const handleClickLeft = ()=>{
     setCounters({
